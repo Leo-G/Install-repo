@@ -14,6 +14,9 @@
  # 
  #   You should have received a copy of the GNU General Public License
  #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- 
- wget -q -O - http://www.atomicorp.com/installers/atomic | sh
  rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+yum install wget -y
+wget -q  -O - http://www.atomicorp.com/installers/atomic | sh
+rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+yum install htop vim -y
+
