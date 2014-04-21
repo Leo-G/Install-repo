@@ -18,5 +18,6 @@
 yum install wget -y
 wget -q  -O - http://www.atomicorp.com/installers/atomic | sh
 rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
-yum install htop vim -y
+yum install htop vim git -y
+
 
